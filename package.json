@@ -1,0 +1,30 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Домашнее задание к занятию \"Модули\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bel-lov/Webpack.git"
+  },
+  "author": "bel-lov",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "bugs": {
+    "url": "https://github.com/bel-lov/Webpack/issues"
+  },
+  "homepage": "https://github.com/bel-lov/Webpack#readme"
+}
